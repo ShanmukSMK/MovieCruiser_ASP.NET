@@ -1,0 +1,78 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="AdminPage.master.cs" Inherits="MovieCruiser.AdminPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            width: 100%;
+            border-collapse: collapse;
+            height: 107px;
+            background-color: #000080;
+        }
+        
+        .auto-style2 {
+            height: 335px;
+        }
+        .auto-style3 {
+            width: 100%;
+            border-collapse: collapse;
+            height: 45px;
+            background-color: #C0C0C0;
+        }
+        
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server" class="auto-style2">
+        <div>
+
+           
+            <table class="auto-style1">
+                <tr>
+                    <td style="color:white;font-size:x-large; font-style: normal;">&nbsp; MovieCruiser&nbsp;
+                        <asp:Image ID="Image1" runat="server" Height="50px" ImageUrl="~/Images/download.png" Width="29px" />
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <asp:HyperLink ID="movieLink" runat="server" Font-Size="Small" Font-Underline="True" ForeColor="White" NavigateUrl="~/AdminMovieList.aspx">Movies</asp:HyperLink>
+&nbsp;&nbsp;&nbsp; </td>
+                </tr>
+            </table>
+
+           
+        </div>
+         <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            
+             <p>
+                 <br />
+             </p>
+             <p>
+             </p>
+             <p>
+             </p>
+             <p>
+             </p>
+             <p>
+             </p>
+             <p>
+             </p>
+             <p>
+             </p>
+             <p>
+             </p>
+             <p>
+             </p>
+            
+            </asp:ContentPlaceHolder>
+   
+    <table class="auto-style3">
+        <tr>
+            <td>&nbsp; Copyright@2019&nbsp;</td>
+        </tr>
+    </table>
+         </form>
+</body>
+</html>
